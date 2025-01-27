@@ -1,4 +1,10 @@
 # 100 Days of Python Code Challenge
 ## Things i didn't know:
-- `print(345_323_675)` can be written like this to ease readability
-- `print(type(123))` Type checking can be used
+```py
+print(123_456) # Long numbers like this to ease readability
+# Type checking can be used
+print(type("Hello"))
+print(type(123_456))
+print(type(456.678))
+print(type(True))
+```
