@@ -1,5 +1,6 @@
 # 100 Days of Python Code Challenge
 ## Things i didn't know:
+To comment out an existing piece of code, just highlight it and press `ctr + /`
 ```py
 print(123_456) # Long numbers like this to ease readability
 # Type checking can be used
