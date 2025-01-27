@@ -40,6 +40,32 @@ bmi = weight/height ** 2
 print(bmi) # 30.85399449035813
 print(int(bmi)) # 30 - Flooring the number
 print(round(bmi)) # 31 - Rounding the number
+print(round(bmi, 2)) # 30.85 - Rounding the number to 2 decimals
+
+# Use f-strings to insert a variable or an expression into a string.
+age = 12
+print(f"I am {age} years old")
+# Will output I am 12 years old.
+
+# Day2 Final Project
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+people = int(input("How many people to split the bill? "))
+total_each = (bill / people) * (1 + tip / 100)
+
+print(f"Each person should pay: ${round(total_each, 2)}")
+
+
+
+
+
+
+
+
+
+
+
 
 
 
